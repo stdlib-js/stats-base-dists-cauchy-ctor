@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.Cauchy;
+})();
 })();
 </script>
 ```
@@ -256,6 +258,7 @@ y = cauchy.quantile( 1.9 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-ctor@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var cauchy = new Cauchy( 2.0, 4.0 );
 
@@ -271,6 +274,7 @@ var mode = cauchy.mode;
 var y = cauchy.cdf( 0.8 );
 // returns ~0.407
 
+})();
 })();
 </script>
 </body>
