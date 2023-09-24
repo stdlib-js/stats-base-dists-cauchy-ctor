@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Cauchy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-ctor@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-cauchy-ctor/tags). For example,
+
+```javascript
 import Cauchy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-ctor@v0.1.0-deno/mod.js';
 ```
 
@@ -237,7 +242,7 @@ y = cauchy.quantile( 1.9 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Cauchy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-ctor@v0.1.0-deno/mod.js';
+import Cauchy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-ctor@deno/mod.js';
 
 var cauchy = new Cauchy( 2.0, 4.0 );
 
