@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Cauchy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-ctor@deno/mod.js';
+import Cauchy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-ctor@v0.2.0-deno/mod.js';
 ```
 
 #### Cauchy( \[x0, gamma] )
@@ -237,7 +237,7 @@ y = cauchy.quantile( 1.9 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Cauchy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-ctor@deno/mod.js';
+import Cauchy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-ctor@v0.2.0-deno/mod.js';
 
 var cauchy = new Cauchy( 2.0, 4.0 );
 
