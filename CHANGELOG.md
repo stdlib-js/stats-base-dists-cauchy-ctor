@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`0feb882`](https://github.com/stdlib-js/stdlib/commit/0feb882c947d76d28bc6a7cd6b32d1c3431611d2) - **bench:** use single-colon for method and property access benchmarks _(by Philipp Burckhardt)_
 -   [`564b95d`](https://github.com/stdlib-js/stdlib/commit/564b95d10f2ba27c7ecc0db98712df489458c657) - **bench:** refactor to use string interpolation in `stats/base/dists/cauchy` [(#10249)](https://github.com/stdlib-js/stdlib/pull/10249) _(by Vishal Gaikwad, Philipp Burckhardt)_
 
 </details>
